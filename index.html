@@ -446,12 +446,12 @@
 </html>
 
 <script>
-  // Verificar si es la primera visita del usuario
+
   if (document.cookie.indexOf("visited") >= 0) {
-    // Si ya ha visitado el sitio, cambiar el texto de bienvenida
+    
     document.getElementById("welcome-text").innerText = "¡Bienvenido de nuevo!"; 
   } else {
-    // Si es la primera visita, establecer una cookie para marcar la visita
+    
     document.cookie = "visited=true; expires=Fri, 31 Dec 9999 23:59:59 GMT"; 
   }
 </script>
